@@ -23,3 +23,20 @@ The OWASP Mobile Application Security Verification Standard (MASVS) is an indust
 
 Resource: OWASP Mobile Application Security Verification Standard (MASVS) — https://mas.owasp.org/MASVS/
 
+## Networking
+
+BGP route hijacking occurs when an unauthorized network falsely advertises ownership of an IP prefix, redirecting internet traffic away from its true destination. Resource Public Key Infrastructure (RPKI) prevents this via cryptographic Route Origin Authorizations (ROAs) that verify whether an Autonomous System is permitted to announce a prefix. However, standard RPKI only validates the origin and does not protect against path manipulation or malicious AS-path spoofing.  
+
+Resource: NIST SP 1800-14: Protecting the Integrity of Internet Routing — https://csrc.nist.gov/pubs/sp/1800/14/finallookups by default.
+
+## Cyber Security
+
+Log4Shell (CVE-2021-44228) is a critical remote code execution vulnerability in Apache Log4j, a widely used Java logging library. It was rated a maximum 10.0 severity because attackers could easily exploit it by injecting a malicious string that forced the server to download and execute arbitrary code, granting full system control. It was fixed by updating Log4j to version 2.17.1 or newer to disable message lookups by default. 
+
+Resource: CISA Advisory (AA21-356A): Mitigating Log4Shell and Other Log4j-Related Vulnerabilities — https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
+
+## Data
+
+A Software Bill of Materials (SBOM) is a formal, nested inventory detailing the components, libraries, and open-source dependencies used to build a software application. To be effective, an SBOM should include critical minimum data fields such as the supplier name, component name, software version, dependency relationships, unique identifiers like PURLs, and the author of the SBOM data to ensure complete supply-chain visibility.
+
+Resource: CISA Software Bill of Materials (SBOM) — https://www.cisa.gov/sbom
