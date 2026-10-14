@@ -31,7 +31,7 @@ Resource: NIST SP 1800-14: Protecting the Integrity of Internet Routing — http
 
 ## Cyber Security
 
-Log4Shell (CVE-2021-44228) is a critical remote code execution vulnerability in Apache Log4j, a widely used Java logging library. It was rated a maximum 10.0 severity because attackers could easily exploit it by injecting a malicious string that forced the server to download and execute arbitrary code, granting full system control. It was fixed by updating Log4j to version 2.17.1 or newer to disable message lookups by default. 
+Log4Shell (CVE-2021-44228) is a critical remote code execution vulnerability in Apache Log4j, a widely used Java logging library. It was rated a maximum 10.0 severity because attackers could easily exploit it by injecting a malicious string that forced the server to download and execute arbitrary code, granting full system control. It was fixed by updating Log4j to version 2.17.0 or newer to disable message lookups by default. 
 
 Resource: CISA Advisory (AA21-356A): Mitigating Log4Shell and Other Log4j-Related Vulnerabilities — https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
@@ -40,3 +40,12 @@ Resource: CISA Advisory (AA21-356A): Mitigating Log4Shell and Other Log4j-Relate
 A Software Bill of Materials (SBOM) is a formal, nested inventory detailing the components, libraries, and open-source dependencies used to build a software application. To be effective, an SBOM should include critical minimum data fields such as the supplier name, component name, software version, dependency relationships, unique identifiers like PURLs, and the author of the SBOM data to ensure complete supply-chain visibility.
 
 Resource: CISA Software Bill of Materials (SBOM) — https://www.cisa.gov/sbom
+
+## Misconception in My Track
+
+A common misconception is that using trusted third-party software components automatically makes an application secure. In reality, even widely used components can contain vulnerabilities or be tampered with. Organizations should identify their software components, protect them from unauthorized changes, use secure development practices, and respond to newly discovered vulnerabilities. A Software Bill of Materials (SBOM) helps identify components, but it does not guarantee that they are free from vulnerabilities. NIST supports this broader approach in its Secure Software Development Framework (SSDF), particularly the heading “Protect the Software (PS)”, which focuses on protecting software components from tampering and unauthorized access.
+Resource :NIST, Secure Software Development Framework (SSDF) - https://csrc.nist.gov/projects/ssdf
+
+## Open Question
+
+How can organizations verify that third-party software components and their updates have not been tampered with before deploying them in production?
