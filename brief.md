@@ -20,16 +20,19 @@ Resource: NIST AI 100-2 E2025: Adversarial Machine Learning — https://csrc.nis
 ## Mobile
 
 The OWASP Mobile Application Security Verification Standard (MASVS) is an industry-standard framework that defines security and privacy requirements for mobile apps. It breaks down security controls into specific categories—such as secure data storage, cryptography, network communication, and platform interaction. Development and security teams use MASVS as a benchmark to design secure architectures, establish a baseline for code reviews, and verify compliance through structured penetration testing.
+
 Resource: OWASP Mobile Application Security Verification Standard (MASVS) — https://mas.owasp.org/MASVS/
 
 ## Networking
 
 BGP route hijacking occurs when an unauthorized network falsely advertises ownership of an IP prefix, redirecting internet traffic away from its true destination. Resource Public Key Infrastructure (RPKI) prevents this via cryptographic Route Origin Authorizations (ROAs) that verify whether an Autonomous System is permitted to announce a prefix. However, standard RPKI only validates the origin and does not protect against path manipulation or malicious AS-path spoofing. 
+
 Resource: NIST SP 1800-14: Protecting the Integrity of Internet Routing — https://csrc.nist.gov/pubs/sp/1800/14/final
 
 ## Cybersecurity
 
 Log4Shell (CVE-2021-44228) is a critical remote code execution vulnerability in Apache Log4j, a widely used Java logging library. It was rated a maximum 10.0 severity because attackers could easily exploit it by injecting a malicious string that forced the server to download and execute arbitrary code, granting full system control. It was fixed by updating Log4j to version 2.17.1 or newer to disable message lookups by default.
+
 Resource: CISA Advisory (AA21-356A): Mitigating Log4Shell and Other Log4j-Related Vulnerabilities — https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
 ## Data
