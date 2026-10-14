@@ -11,7 +11,7 @@ The Twelve-Factor App methodology recommends storing configuration in environmen
 
 Resource: The Twelve-Factor App — Config - https://12factor.net/config
 
-##AI 
+## AI 
 
 Adversarial attacks on machine learning systems primarily fall into categories like poisoning and evasion, which differ mainly by when and how they occur. Poisoning attacks target the training phase by injecting malicious data or labels to corrupt the model's foundational behavior. In contrast, evasion attacks happen during the testing or deployment phase, where attackers subtly tweak inputs—like adding imperceptible noise to an image—to fool a fully trained model into misclassification.
 
