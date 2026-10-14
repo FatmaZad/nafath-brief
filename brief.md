@@ -20,4 +20,6 @@ Resource: NIST AI 100-2 E2025: Adversarial Machine Learning — https://csrc.nis
 ## Mobile 
 
 The OWASP Mobile Application Security Verification Standard (MASVS) is an industry-standard framework that defines security and privacy requirements for mobile apps. It breaks down security controls into specific categories—such as secure data storage, cryptography, network communication, and platform interaction. Development and security teams use MASVS as a benchmark to design secure architectures, establish a baseline for code reviews, and verify compliance through structured penetration testing. 
+
 Resource: OWASP Mobile Application Security Verification Standard (MASVS) — https://mas.owasp.org/MASVS/
+
